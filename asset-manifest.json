@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/photoShocase/static/css/main.c52bf5b1.css",
+    "main.js": "/photoShocase/static/js/main.fcff586e.js",
+    "static/media/about.jpg": "/photoShocase/static/media/about.44c0b77ab2c82b2d2112.jpg",
+    "index.html": "/photoShocase/index.html",
+    "main.c52bf5b1.css.map": "/photoShocase/static/css/main.c52bf5b1.css.map",
+    "main.fcff586e.js.map": "/photoShocase/static/js/main.fcff586e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c52bf5b1.css",
+    "static/js/main.fcff586e.js"
+  ]
+}
