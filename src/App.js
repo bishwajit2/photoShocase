@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import LatestPhotos from "./components/LatestPhotos";
 import About from "./components/pages/About";
@@ -12,7 +12,7 @@ import { TabTitle } from "./lib/generalFunction";
 function App() {
   TabTitle("PhotoBD | Home");
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Header />
         <div className="content-block">
@@ -28,7 +28,7 @@ function App() {
         </div>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

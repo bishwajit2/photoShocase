@@ -47,7 +47,9 @@ export default class Photo extends Component {
                 <span>Downloads:</span> {photo.downloads}
               </p>
               <p>
-                <a href={photo.links && photo.links.download}>Download</a>
+                <a href={photo.links && photo.links.download} download>
+                  Download
+                </a>
               </p>
             </div>
             <div className="photo-image">
